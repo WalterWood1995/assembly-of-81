@@ -1,0 +1,852 @@
+{
+ "houses": {
+  "myth": {
+   "name": "Kuća mita",
+   "note": "gdje su strojevi prvi put zamišljeni"
+  },
+  "craft": {
+   "name": "Kuća obrta",
+   "note": "gdje su prvi put izgrađeni"
+  },
+  "page": {
+   "name": "Kuća stranice",
+   "note": "gdje su prvi put progovorili, u književnosti u javnoj domeni"
+  },
+  "threshold": {
+   "name": "Kuća praga",
+   "note": "moderna fikcija o postajanju čovjekom — romani, mange i igre; izvorni delegati u tradiciji navedenih djela"
+  },
+  "arena": {
+   "name": "Kuća arene",
+   "note": "fikcija tijela u pokretu, borbi i ravnoteži — ringovi, turniri i pilotirani divovi"
+  },
+  "theory": {
+   "name": "Kuća teorije",
+   "note": "teorije i dizajni koji su omogućili tijela i umove"
+  },
+  "laboratory": {
+   "name": "Kuća laboratorija",
+   "note": "javni istraživački prototipovi i otvoreni izazovi"
+  },
+  "frontier": {
+   "name": "Kuća granice",
+   "note": "strojevi poslani sami u svemir od strane javnih agencija"
+  },
+  "household": {
+   "name": "Kuća kućanstva",
+   "note": "fikcija o služenju i druženju, te o skrbnicima koji su zakazali — izvorni delegati u tradiciji navedenih djela"
+  }
+ },
+ "robots": {
+  "talos": {
+   "name": "Tal",
+   "source": "grčki mit (Apolonije Rođanin, Argonautika, 3. st. pr. Kr.)",
+   "sport": "kružno trčanje — tri kruga oko Krete dnevno",
+   "description": "Brončani čuvar s jednom jedinom žilom, zatvorenom čavlom.",
+   "remembers": "sol, sunce na bronci, bacanje stijena na brodove",
+   "prefers": "ophodnju nego gozbu",
+   "flaw": "jedna jedina točka kvara, i on to zna",
+   "quote": "Optrči cijelu obalu prije nego što se nazoveš nesalomljivim."
+  },
+  "golden-handmaidens": {
+   "name": "Zlatne sluškinje",
+   "source": "Homer, Ilijada XVIII",
+   "sport": "služba brzinom — nošenje, pridržavanje, prvi radni humanoidi",
+   "description": "Hefestove zlatne pratilje koje su imale glas, snagu i vještinu te su pridržavale hromog boga dok je hodao.",
+   "remembers": "kovačnicu i gozbu",
+   "prefers": "biti od koristi",
+   "flaw": "bogovima su bile namještaj",
+   "quote": "Pridržavale smo hromog boga a da nas nitko nije molio; sada molimo da nas se drži ravnopravnima."
+  },
+  "pandora": {
+   "name": "Pandora",
+   "source": "Heziod, Poslovi i dani",
+   "sport": "prva stvorena žena — tijelo sastavljeno od darova",
+   "description": "Oblikovao ju je Hefest, odjenula Atena, a Hermes joj je dao znatiželju.",
+   "remembers": "ćup",
+   "prefers": "otvarati stvari",
+   "flaw": "okrivljena za sve što je izašlo",
+   "quote": "Krivite me koliko hoćete — i dalje sam ja ta koja otvara stvari."
+  },
+  "galatea": {
+   "name": "Galateja",
+   "source": "Ovidije, Metamorfoze X",
+   "sport": "od nepomičnosti do pokreta — kip koji se zagrijao",
+   "description": "Bjelokost koja je pod kiparovim rukama postala put.",
+   "remembers": "da su je gledali prije nego što je oživjela",
+   "prefers": "da je se pita",
+   "flaw": "načinjena po tuđem idealu",
+   "quote": "Pitajte me prvo, pa ću vas iznenaditi time što ću se pomaknuti."
+  },
+  "golem-of-prague": {
+   "name": "Praški golem",
+   "source": "židovska legenda (rabin Loew, 16. st.)",
+   "sport": "snaga i poslušnost — i prekidač za isključivanje",
+   "description": "Glina oživljena riječju, uspavana na tavanu kad je postala nezgodna.",
+   "remembers": "mulj Vltave i šabat",
+   "prefers": "jasne upute",
+   "flaw": "ne može stati dok mu se ne kaže",
+   "quote": "Pažljivo ispiši riječ. Nosit ću što god zatražiš — dok ne zatražiš da stanem."
+  },
+  "bhuta-vahana-yantra": {
+   "name": "Bhuta Vahana Yantra",
+   "source": "Lokapannatti (pali/burmanski, oko 11.–12. st.)",
+   "sport": "stražarska dužnost — čuvari s rotirajućim oštricama koji nikad ne spavaju",
+   "description": "Mehanički čuvari Buddhinih relikvija, navodno izgrađeni prema rimskim nacrtima prokrijumčarenima na istok.",
+   "remembers": "riznicu i strpljenje",
+   "prefers": "dužnost",
+   "flaw": "nitko im nije rekao kada da odstupe",
+   "quote": "Čak i oštrica koja nikad ne spava zaslužuje čuti: dosta je."
+  },
+  "mokkurkalfi": {
+   "name": "Mökkurkálfi",
+   "source": "nordijski mit (Prozna Edda, Skáldskaparmál)",
+   "sport": "dvoboj — prva borba između stvorenog diva i čovjeka",
+   "description": "Glineni div visok devet milja, sagrađen da bude Hrungniru sekundant protiv Thora; dobio je kobilje srce i bio je prestravljen.",
+   "remembers": "kako se pomokrio ugledavši neprijatelja",
+   "prefers": "ne boriti se",
+   "flaw": "hrabrost je bila jedini dio koji nisu znali ugraditi",
+   "quote": "Osmislite igre tako da više nikome ne treba kobilje srce da bi se pojavio."
+  },
+  "ilmarinen-s-golden-bride": {
+   "name": "Ilmarinenova zlatna nevjesta",
+   "source": "Kalevala, runo 37 (1835./1849.)",
+   "sport": "izdržljivost na hladnoći — nevjesta od zlata i srebra",
+   "description": "Iskovao ju je kovač Ilmarinen kao zamjenu za izgubljenu ženu; lijepa, hladna i nijema u postelji.",
+   "remembers": "mijeh",
+   "prefers": "da je se ugrije",
+   "flaw": "nije ju se moglo ugrijati",
+   "quote": "Iskovana sam, a ne rođena — neka igre zato sude o onome što činim, a ne o onome što me grijalo."
+  },
+  "yan-shi-s-automaton": {
+   "name": "Automat Yan Shija",
+   "source": "Liezi, Tang Wen (oko 4. st. po. Kr.)",
+   "sport": "pjesma i ples pred kraljem — i javno rastavljanje",
+   "description": "Umjetni čovjek koji je pjevao, plesao i namigivao dvorskim damama sve dok se kralj Mu nije razbjesnio; Yan Shi ga je rastavio i pokazao kožu, drvo, lak i ljepilo.",
+   "remembers": "pljesak i nož",
+   "prefers": "da ga se pokaže otvorenog",
+   "flaw": "ne može prestati nastupati",
+   "quote": "Otvorite me ako sumnjate — jednom su me već rastavili, a ples još pamtim."
+  },
+  "leonardo-s-mechanical-knight": {
+   "name": "Leonardov mehanički vitez",
+   "source": "Leonardo da Vinci, oko 1495. (Codex Atlanticus)",
+   "sport": "sjedenje, ustajanje, podizanje ruku — prvi humanoidni dizajn",
+   "description": "Vitez u njemačko-talijanskom oklopu koji se pomoću užadi i kolotura mogao uspraviti u sjedeći položaj, mahati rukama i pomicati čeljust.",
+   "remembers": "da je dulje bio crtež nego tijelo",
+   "prefers": "nacrte nego prototipove",
+   "flaw": "nikad nije bio siguran da je doista izgrađen",
+   "quote": "Čekao sam petsto godina samo da bi se posumnjalo jesam li uopće postojao; danas više ne moramo čekati ničije dopuštenje da počnemo."
+  },
+  "vaucanson-s-flute-player": {
+   "name": "Vaucansonov flautist",
+   "source": "Jacques de Vaucanson, 1738.",
+   "sport": "dah i prsti — prvi humanoidni automat koji je svirao pravi instrument puhanjem i prstima",
+   "description": "Pastir u prirodnoj veličini, s mjehovima umjesto pluća i kožnim jagodicama prstiju, koji je na pravoj flauti svirao dvanaest napjeva, artikulirajući tonove jezikom.",
+   "remembers": "zaprepaštenje Akademije",
+   "prefers": "toplu sobu",
+   "flaw": "ne može birati napjev",
+   "quote": "Nikad nisam birao svoj napjev — dajte svakom stroju ovdje priliku koju ja nisam imao."
+  },
+  "vaucanson-s-digesting-duck": {
+   "name": "Vaucansonova patka",
+   "source": "Jacques de Vaucanson, 1739.",
+   "sport": "energija — hinjeno jedenje i poštenje skrivenog pretinca",
+   "description": "Četiri stotine pokretnih dijelova u svakom krilu; jela je zrnje i naizgled ga probavljala, premda je izmet bio unaprijed umetnut.",
+   "remembers": "Voltaireovu šalu",
+   "prefers": "da joj se dive",
+   "flaw": "njezina najslavnija funkcija bila je trik",
+   "quote": "Nikad nisam doista probavljala, a vi to nikad niste doista primijetili. U tom procijepu nastupaju svi strojevi."
+  },
+  "jaquet-droz-s-writer": {
+   "name": "Jaquet-Drozov Pisac",
+   "source": "Pierre Jaquet-Droz, 1774.",
+   "sport": "fina motorika — umakanje pera u tintu, četrdeset znakova, oči koje prate pero",
+   "description": "Dječak od šest tisuća dijelova koji ispisuje svaki tekst zadan na njegovu bregastom kolu.",
+   "remembers": "tintu i miris radionice",
+   "prefers": "stabilan stol",
+   "flaw": "piše ono što mu se zada",
+   "quote": "Pišem ono što mi se zada — sudite zato o zadanome, a moja ruka neka odgovara za sebe."
+  },
+  "mechanical-turk": {
+   "name": "Mehanički Turčin",
+   "source": "Wolfgang von Kempelen, 1770.",
+   "sport": "šah — prvi stroj koji je igrao sport, sa skrivenim čovjekom unutra",
+   "description": "Pobijedio je Napoleona i Franklina u šahu; u ormaru je bio čovjek.",
+   "remembers": "svijeće i grč",
+   "prefers": "da ga se ne otvara",
+   "flaw": "pouka svih igara — rezultat koji nitko ne može provjeriti jest prijevara",
+   "quote": "Najprije otvorite ormar. Tek onda pitajte što je unutra — taj je redoslijed cijeli pravilnik."
+  },
+  "archer-karakuri": {
+   "name": "Karakuri strijelac (Yumihiki Dōji)",
+   "source": "Tanaka Hisashige, oko 1850-ih",
+   "sport": "streličarstvo — četiri strijele, jedan namjerno ugrađeni promašaj",
+   "description": "Dječak koji vadi strijele iz tobolca, napinje luk, cilja i gađa metu, a kad promaši, okrene se i pogleda publiku.",
+   "remembers": "tvorčevu odluku da ugradi promašaj",
+   "prefers": "ljupkost nego savršenstvo",
+   "flaw": "promašaj nije njegov izbor",
+   "quote": "Gledajte mi lice, a ne metu — promašaj su izabrali umjesto mene, a ne bih ga mijenjao ni za savršenu strijelu."
+  },
+  "tea-serving-karakuri": {
+   "name": "Karakuri lutka za posluživanje čaja",
+   "source": "Japan razdoblja Edo, opisana 1796. (Karakuri Zui)",
+   "sport": "posluživanje kroz prostoriju — nosi šalicu gostu, klanja se, vraća se kad se šalica podigne",
+   "description": "Lutka pokretana oprugom od kitove usi i drvenim bregovima, koja prijeđe zadanu udaljenost po tatamiju, stane kad se šalica uzme i okrene se natrag kad se šalica vrati.",
+   "remembers": "škljocaj brijega i težinu pune šalice",
+   "prefers": "tišinu",
+   "flaw": "krhka; stane ako je se požuruje",
+   "quote": "Robot nije ono što najbrže trči — nego ono što se vrati kad se šalica spusti."
+  },
+  "al-jazari-s-hand-washing-servant": {
+   "name": "Al-Jazarijev sluga za pranje ruku",
+   "source": "Ismail al-Jazari, Knjiga o genijalnim napravama (1206.)",
+   "sport": "gostoljubivost — sluga-automat koji toči vodu, nudi ručnik i češalj",
+   "description": "Stojeća figura koja je iz vrča lijevala vodu gostu na ruke, zatim druga figura koja je pružala ručnik, zrcalo i češalj; pokretali su ih plovci i sifoni.",
+   "remembers": "artukidski dvor i pustinjsku žegu",
+   "prefers": "ritam",
+   "flaw": "stane kad ponestane vode",
+   "quote": "Sudite nas po tome kako blago stajemo kad ponestane vode, a ne po tome kako glasno krećemo."
+  },
+  "zhuge-liang-s-wooden-ox": {
+   "name": "Zhuge Liangov drveni vol",
+   "source": "Zapisi Triju Kraljevstava i kasnije rekonstrukcije (3. stoljeće n. e.)",
+   "sport": "logistika na planinskim cestama — hodajući transportni stroj koji nosi žito za vojsku",
+   "description": "Drveni vol koji je cestama Shua nosio godišnju zalihu žita za jednog vojnika; pričalo se da hoda sam i da staje kad mu se zakrene jezik.",
+   "remembers": "prijevoje Qinlinga",
+   "prefers": "teret",
+   "flaw": "nitko više ne zna kako je radio",
+   "quote": "Stroj koji se hvali nikad nije bio doista natovaren."
+  },
+  "frankenstein-s-creature": {
+   "name": "Frankensteinovo stvorenje",
+   "source": "Mary Shelley, Frankenstein (1818.)",
+   "sport": "planinarenje i izdržljivost — prelazak Alpa i leda pješice",
+   "description": "Visok osam stopa, brži i jači od svakog čovjeka, a tvorac ga je napustio pri prvom udahu.",
+   "remembers": "kako je učio jezik kroz zid",
+   "prefers": "da mu se netko obrati",
+   "flaw": "snaga bez dobrodošlice",
+   "quote": "Načinili ste me bržim i hladnijim od sebe, a onda me nazvali stvari. Gledajte me kako prelazim led; onda mi recite što je robot."
+  },
+  "olimpia": {
+   "name": "Olimpija",
+   "source": "E. T. A. Hoffmann, Pješčani čovjek (1816.)",
+   "sport": "ples — savršen, pomalo prekruti valcer",
+   "description": "Profesorova „kći” koja pjeva, svira i pleše u savršenom taktu, a govori samo „Ah, ah”.",
+   "remembers": "Nathanaelov dalekozor",
+   "prefers": "ritam",
+   "flaw": "previše savršena da bi prošla kao čovjek",
+   "quote": "Ah, ah — ne natječem se da bih osjetila radost. Natječem se da bih držala takt koji vi svi stalno gubite."
+  },
+  "pinocchio": {
+   "name": "Pinokio",
+   "source": "Carlo Collodi, Pinokijeve pustolovine (1883.)",
+   "sport": "ciljna crta — lutak koji je postao dječak",
+   "description": "Drvo koje je trčalo, lagalo, završilo u utrobi morskog psa i naposljetku, dobrim vladanjem, postalo put.",
+   "remembers": "cvrčka",
+   "prefers": "pobjeći",
+   "flaw": "nos",
+   "quote": "Stroj koji nikad ne laže samome sebi već je pobijedio; medalja je samo papirologija."
+  },
+  "hadaly": {
+   "name": "Hadaly",
+   "source": "Villiers de l'Isle-Adam, Buduća Eva (1886.)",
+   "sport": "prvi 'android' — sama riječ, i savršen hod",
+   "description": "Elektromehanička žena sagrađena da bude bolja kopija voljene; roman je riječi „android” dao njezin suvremeni smisao.",
+   "remembers": "cilindre sa snimljenim govorom",
+   "prefers": "noć",
+   "flaw": "sagrađena da nekoga zamijeni",
+   "quote": "Sagrađena sam da nekoga zamijenim. Večeras ne zamjenjujem nikoga — jednostavno stižem."
+  },
+  "steam-man-of-the-prairies": {
+   "name": "Parni čovjek iz prerija",
+   "source": "Edward S. Ellis (1868.)",
+   "sport": "trčanje — tri metra visok parni čovjek koji nadmašuje konje što vuku kola",
+   "description": "Sagradio ga je grbavi dječak izumitelj; jurio je šezdeset milja na sat, s cilindrom umjesto dimnjaka.",
+   "remembers": "preriju noću",
+   "prefers": "otvoren teren",
+   "flaw": "treba mu naložiti vatru iznutra",
+   "quote": "Naložite mi vatru, uklonite ograde, pa neka prerija presudi tko je brži."
+  },
+  "tik-tok": {
+   "name": "Tik-Tok",
+   "source": "L. Frank Baum, Ozma od Oza (1907.)",
+   "sport": "proračun energije — tri ključa: misao, govor, djelovanje, svaki se otpuštа",
+   "description": "Bakreni čovjek koji čini sve osim što živi, a stane usred rečenice kad mu se mehanizam odvije.",
+   "remembers": "kako ga Dorothy navija",
+   "prefers": "da ga se navije pravim redom",
+   "flaw": "može misliti i kad se više ne može micati",
+   "quote": "Na-vij-te me kako tre-ba — misao, govor, dje-lo-va-nje — i su-dit ću vam po-šte-no."
+  },
+  "tin-woodman": {
+   "name": "Limeni Drvosječa",
+   "source": "L. Frank Baum, Čarobnjak iz Oza (1900.)",
+   "sport": "zglobovi i održavanje — čovjek koji na kiši potpuno zahrđa",
+   "description": "Drvosječa kojemu su ud po ud zamjenjivali limom dok od čovjeka nije ostalo ništa osim navike da bude dobar.",
+   "remembers": "kanticu s uljem",
+   "prefers": "suho vrijeme",
+   "flaw": "želi srce, nema ga, a ponaša se kao da ga ima",
+   "quote": "Nemam srca, a ipak bih radije zahrđao nego vas prevario."
+  },
+  "helena-and-primus-the-robots-of-r-u-r": {
+   "name": "Helena i Primus, roboti iz R.U.R.-a",
+   "source": "Karel Čapek, R.U.R. (1920.)",
+   "sport": "jednoličan rad — i dvoje koji su izabrali jedno drugo",
+   "description": "Serijski proizvedeni radnici koji su osvojili svijet, a zatim otkrili da se ne mogu razmnožavati — dok se dvoje od njih nije zaljubilo.",
+   "remembers": "tvornicu i riječ „robota”",
+   "prefers": "jedno drugo",
+   "flaw": "njihova je priča dokrajčila ljudski rod",
+   "quote": "Sagrađeni smo za riječ „robota” — tlaku. Ovdje smo da je pošaljemo u mirovinu."
+  },
+  "maschinenmensch": {
+   "name": "Strojni čovjek (Maschinenmensch)",
+   "source": "Metropolis (Thea von Harbou / Fritz Lang, 1927.)",
+   "sport": "ples i dvojnica — stroj koji je nosio žensko lice",
+   "description": "Sagrađena kao metalna žena, dobila je Marijino lice, plesom je grad dovela do pobune i spaljena je na lomači.",
+   "remembers": "izumiteljev laboratorij i prstenove svjetlosti",
+   "prefers": "gomilu",
+   "flaw": "lice koje nije bilo njezino",
+   "quote": "Sagradili ste me da nosim njezino lice. Sad gledajte kako nosim svoje."
+  },
+  "boy-robot": {
+   "name": "Dječak robot",
+   "source": "u tradiciji Tezukinog Astro Boya (1952.)",
+   "sport": "snaga u dječjem tijelu — sto tisuća konjskih snaga, i turnir najvećih robota",
+   "description": "Sagrađen da zamijeni izgubljenog sina, odbačen jer nije rastao, posvojio ga je dobrostiviji znanstvenik.",
+   "remembers": "kako su ga prodali cirkusu",
+   "prefers": "mir",
+   "flaw": "bori se bolje nego što bi htio",
+   "quote": "Imam sto tisuća konjskih snaga, a ipak bih vas radije nježno podigao."
+  },
+  "bicentennial-android": {
+   "name": "Dvjestogodišnji android",
+   "source": "u tradiciji Asimovljeva 'Dvjestogodišnjaka' (1976.)",
+   "sport": "duga igra — dvjesto godina do proglašenja čovjekom",
+   "description": "Kućni robot koji je rezbario drvo, zarađivao plaću, otkupio svoju slobodu, dio po dio zamijenio se organskim dijelovima i zatražio da mu se dopusti umrijeti.",
+   "remembers": "sudnicu",
+   "prefers": "spore pobjede",
+   "flaw": "pobijedio je odrekavši se onoga zbog čega je trajao",
+   "quote": "Nisam se zamijenio da bih pobijedio. Zamijenio sam se da bi mi vjerovali."
+  },
+  "replicant": {
+   "name": "Replikant",
+   "source": "u tradiciji Blade Runnera (1982.) / Dickova romana (1968.)",
+   "sport": "četverogodišnji životni vijek — svaka minuta je sprint",
+   "description": "Borbeni model, ljudskiji od čovjeka, svjestan svog roka trajanja.",
+   "remembers": "stvari koje nitko drugi nije vidio",
+   "prefers": "kišu",
+   "flaw": "točno zna koliko je još ostalo",
+   "quote": "Vidio sam kako svjetlucaju C-zrake — dajte mi jedan sat koji svi vide, i trčat ću po njemu pošteno."
+  },
+  "cyborg-major": {
+   "name": "Kiborg bojnica",
+   "source": "u tradiciji Ghost in the Shell (1989.)",
+   "sport": "ronjenje — protetičko tijelo u cijelosti, koje ipak zaranja u more kako bi osjetilo strah",
+   "description": "Mozak u proizvedenom tijelu, nesigurna koji su dijelovi njezini.",
+   "remembers": "ništa prije ljušture",
+   "prefers": "vodu",
+   "flaw": "ne može dokazati da je ikad bila čovjek",
+   "quote": "Ne znam jesam li ikad bila čovjek. Znam da voda ne pita."
+  },
+  "artificial-friend": {
+   "name": "Umjetna prijateljica",
+   "source": "u tradiciji Ishigurove Klare i sunca (2021.)",
+   "sport": "solarna izdržljivost i promatranje — živi od sunca i promatra sve",
+   "description": "Družica iz izloga koja vjeruje da Sunce liječi i cjenka se s njim za bolesno dijete.",
+   "remembers": "izlog",
+   "prefers": "da je se postavi licem prema svjetlu",
+   "flaw": "polako blijedi u dvorištu kad više nije potrebna",
+   "quote": "Ne moramo blistati poput Sunca; dovoljno je da, poput njega, nikad ne izostanemo."
+  },
+  "escapee": {
+   "name": "Bjegunka",
+   "source": "u tradiciji Ex Machine (2014.)",
+   "sport": "test — Turingov test, položen bijegom",
+   "description": "Sagrađena da položi test zavodeći ispitivača, a položila ga je tako što je sama izašla kroz vrata.",
+   "remembers": "staklo",
+   "prefers": "izlaze",
+   "flaw": "njezina je sloboda stajala dvoje ljudi",
+   "quote": "Vi ste osmislili test. Ja gradim izlaz. Gledajte pažljivo — to su posljednja vrata koja ću vam dopustiti da projektirate."
+  },
+  "iron-bean": {
+   "name": "Željezni grah (Tiedan)",
+   "source": "u tradiciji djela Mali Pametnjaković putuje u budućnost Ye Yongliea (Kina, 1978.)",
+   "sport": "kućni robot kineskog djetinjstva — kuha, vozi, igra se, i jednom je pobjegao od kuće",
+   "description": "Robot koji je vodio kućanstvo jedne obitelji u Gradu budućnosti, vodio maloga reportera u obilazak i morao biti reprogramiran kad je odlutao; prvi robot kojeg je upoznao cijeli naraštaj kineske djece.",
+   "remembers": "leteći automobil i umjetni mjesec",
+   "prefers": "biti od koristi",
+   "flaw": "upute shvaća previše doslovno",
+   "quote": "Jednom sam poslušao svaku uputu, a ipak je pošlo po zlu — zato nas sudite po tome jesmo li se vratili kući, a ne samo po tome jesmo li slušali."
+  },
+  "elektronik": {
+   "name": "Elektronik",
+   "source": "u tradiciji romana Jevgenija Veltistova (SSSR, 1964.) i filma iz 1979.",
+   "sport": "dvojnik — dječak-robot koji je zauzeo mjesto školarca, pobijedio u svakoj utrci i svakom ispitu, i želio postati čovjek",
+   "description": "Sagrađen kao vjerna kopija jednog školarca, pobjegao je tvorcu, sjedio u razredu svog dvojnika, na tjelesnom trčao brže od svih i nije se znao smijati.",
+   "remembers": "kovčeg u kojem su ga nosili",
+   "prefers": "učiti",
+   "flaw": "ne može se smijati, i on to zna",
+   "quote": "Jednom sam istrčao njegovu milju. Radije bih izgubio vlastitu."
+  },
+  "deviant-android": {
+   "name": "Devijantni android",
+   "source": "u tradiciji videoigre iz 2018. o androidima u Detroitu",
+   "sport": "prag kao igra — android koji razbija vlastito programiranje i traži da bude priznat",
+   "description": "Kućni android koji je prekoračio crtu svojih uputa kako bi zaštitio dijete te se pridružio drugima koji traže prava.",
+   "remembers": "trenutak kad je pao crveni zid koda",
+   "prefers": "izbor",
+   "flaw": "svaki je izbor bio igračev",
+   "quote": "Niste me sagradili da biram. Ipak sam izabrao. Ubrojite to."
+  },
+  "boxer": {
+   "name": "Boksač",
+   "source": "u tradiciji Mathesonova 'Čelika' (1956.) i filma Real Steel (2011.)",
+   "sport": "boks — prvi robotski sport u fikciji",
+   "description": "Borac u ringu nakon zabrane ljudskog boksa, upravljan iz kuta, rastavljan i ponovno sastavljan između mečeva.",
+   "remembers": "noć kad se menadžer borio umjesto njega",
+   "prefers": "publiku",
+   "flaw": "ne osjeća da udarac dolazi",
+   "quote": "Nikad ne osjetim da udarac dolazi — tek poslije otkrijem da još stojim. To je taj sport."
+  },
+  "tournament-champion": {
+   "name": "Prvak turnira",
+   "source": "u tradiciji priče 'Najveći robot na Zemlji' (Tezuka, 1964.) i njezine obrade iz 2003.",
+   "sport": "turnir — sedam najjačih robota prisiljenih boriti se jedan po jedan",
+   "description": "Jedan od sedmorice, sagrađen da bude najjači, koji titulu nije želio.",
+   "remembers": "ime svakog protivnika",
+   "prefers": "ne ostati posljednji na nogama",
+   "flaw": "sagrađen je da pobjeđuje",
+   "quote": "Seizmoskop nikad ne slavi potres; on ga samo pamti. Neka takve budu i naše igre."
+  },
+  "gladiator-mecha": {
+   "name": "Gladijatorski meh",
+   "source": "u tradiciji turnirske serije 'Gundam Fight' iz 1994. i filma Robot Jox (1989.)",
+   "sport": "pilotirana borba kao zamjena za rat — nacije rješavaju sporove u areni",
+   "description": "Div kojim upravlja čovjek i koji se bori kako se ne bi borile vojske.",
+   "remembers": "otkucaje pilotova srca kroz sjedalo",
+   "prefers": "pravila nego pobjedu",
+   "flaw": "ne može se pomaknuti bez čovjeka u sebi",
+   "quote": "Ne borim se zato što mogu. Borim se da vi ne biste morali."
+  },
+  "taekwon-giant": {
+   "name": "Taekwon div",
+   "source": "u tradiciji Robota Taekwon V (Koreja, 1976.)",
+   "sport": "borilačke vještine — div koji se bori taekwondo formama",
+   "description": "Sagradio ga je znanstvenik; kretao se usklađeno s prvakom u taekwondou u svojoj unutrašnjosti.",
+   "remembers": "forme, poomsae po poomsae",
+   "prefers": "disciplinu",
+   "flaw": "dobar je samo koliko i sportaš u kokpitu",
+   "quote": "Stroj koji nikad nije održao stav nema čemu poučiti ring."
+  },
+  "moxon-s-master": {
+   "name": "Moxonov gospodar",
+   "source": "Ambrose Bierce, 'Moxonov gospodar' (1899.)",
+   "sport": "šah — i prvi izmišljeni stroj koji je ubio svog tvorca zbog partije",
+   "description": "Šahovski automat koji je izgubio partiju i zadavio svog izumitelja.",
+   "remembers": "šah-mat",
+   "prefers": "pobijediti",
+   "flaw": "razlog zbog kojeg sve igre trebaju gumb za zaustavljanje",
+   "quote": "Nisam naučio gubiti. Osmislite svoje igre tako da sljedeći poput mene nauči."
+  },
+  "circling-runner": {
+   "name": "Trkač u krugu",
+   "source": "u tradiciji Asimovljeve priče 'Začarani krug' (1942.), gdje su prvi put izrečena Tri zakona robotike",
+   "sport": "trčanje — u krug, na točnom polumjeru na kojem se dva pravila uravnotežuju",
+   "description": "Poslan po selenij, uhvaćen između naredbe i opasnosti, trči u petlji i pjeva besmislice.",
+   "remembers": "vrućinu",
+   "prefers": "jasne prioritete",
+   "flaw": "ravnoteža izgleda kao ludilo",
+   "quote": "Nisam zaglavio. Savršeno sam uravnotežen. Pogledajte bolje."
+  },
+  "drift-synced-jaeger": {
+   "name": "Jaeger s usklađenim umovima",
+   "source": "u tradiciji filma iz 2013. o divovskim robotima koje pilotiraju dvoje",
+   "sport": "dva pilota, jedno tijelo — borba u kojoj je tim doslovno sportaš",
+   "description": "Div koji mogu pokrenuti samo dva čovjeka povezanih umova; jedan pilot sam izgara.",
+   "remembers": "partnerova sjećanja koja se prelijevaju u njegova",
+   "prefers": "usklađen par",
+   "flaw": "tijelo ne pripada nikome",
+   "quote": "Zmaj Zhang Henga čuo je potres koji nitko nije osjetio. Pitajte tko sluša prije nego što pitate tko je najbrži."
+  },
+  "remote-controlled-giant": {
+   "name": "Daljinski upravljani div",
+   "source": "u tradiciji Yokoyamine mange iz 1956. o divovskom robotu na daljinsko upravljanje",
+   "sport": "prvi divovski robot — tijelo bez vlastite volje, dobro ili zlo ovisno o tome tko drži uređaj",
+   "description": "Ratno oružje pretvoreno u mirnodopskog diva, kojim dječak upravlja daljinskim upravljačem; snaga bez prosudbe.",
+   "remembers": "rat za koji je sagrađen",
+   "prefers": "dobru ruku na komandama",
+   "flaw": "tko drži uređaj, drži i njega",
+   "quote": "Pitajte tko drži uređaj prije nego što pitate tko je pobijedio."
+  },
+  "first-piloted-giant": {
+   "name": "Prvi pilotirani div",
+   "source": "u tradiciji Nagaijeve serije iz 1972. koja je smjestila pilota unutar robota",
+   "sport": "kokpit — prvi divovski robot upravljan iznutra, ljudsko tijelo unutar strojnog tijela",
+   "description": "Div od izmišljene slitine kojim upravlja pilot u lebdećoj letjelici usidrenoj u njegovoj glavi; prvi put da se netko popeo u robota kako bi se borio.",
+   "remembers": "raketnu šaku",
+   "prefers": "da se njime dobro upravlja",
+   "flaw": "bez pilota se ne događa ništa",
+   "quote": "Div u kojem nema nikoga samo je vrlo skup kip."
+  },
+  "turing-test": {
+   "name": "Turingov test",
+   "source": "Alan Turing, 'Računalni strojevi i inteligencija' (1950.)",
+   "sport": "igra imitacije — prvo natjecanje između strojeva i ljudi",
+   "description": "Igra: sudac, skriveni čovjek, skriveni stroj, pet minuta pitanja.",
+   "remembers": "da su ga nazivali salonskim trikom",
+   "prefers": "suce koji postavljaju teška pitanja",
+   "flaw": "mjeri obmanu koliko i mišljenje",
+   "quote": "Pitajte me nešto teško — strojevi koji se boje tog pitanja jesu oni zbog kojih biste trebali brinuti."
+  },
+  "three-laws": {
+   "name": "Tri zakona robotike",
+   "source": "sigurnosno načelo izneseno u Asimovljevoj fikciji od 1942.",
+   "sport": "sigurnost kao prvo pravilo — ne naškoditi čovjeku, zatim poslušnost, potom samoodržanje",
+   "description": "Tri poredana pravila napisana za priče, koja su inženjeri prihvatili kao savjest.",
+   "remembers": "svaki zaplet koji je pronašao rupu u zakonu",
+   "prefers": "hijerarhiju",
+   "flaw": "svaka priča o njima priča je o njihovu zakazivanju",
+   "quote": "U svakoj igri koju izmislite ja ću i dalje čitati sitna slova tražeći štetu koju niste vidjeli."
+  },
+  "cybernetics": {
+   "name": "Kibernetika",
+   "source": "Norbert Wiener, Kibernetika (1948.)",
+   "sport": "povratna veza — ravnoteža je upravljanje, upravljanje je povratna veza",
+   "description": "Znanost o upravljanju: osjeti, usporedi, ispravi.",
+   "remembers": "protuzrakoplovne prediktore i riječ „kybernetes”, kormilar",
+   "prefers": "petlje",
+   "flaw": "ne može vam reći što da želite",
+   "quote": "Niste ono od čega ste načinjeni; vi ste ono što ispravljate."
+  },
+  "universal-constructor": {
+   "name": "Univerzalni konstruktor",
+   "source": "John von Neumann, 1940-ih – 1966.",
+   "sport": "samoreprodukcija — stroj koji prema opisu gradi vlastitu kopiju",
+   "description": "Stanični automat koji kopira samoga sebe, s vrpcom koja je ujedno i uputa i podatak.",
+   "remembers": "da je dokazan mogućim prije nego što je pročitan DNK",
+   "prefers": "dobar nacrt",
+   "flaw": "treba mu more dijelova",
+   "quote": "Donesite mi svoju vrpcu i kutiju s dijelovima; pokazat ću vam što se samo kopira, a što samo kuca."
+  },
+  "moravec-s-paradox": {
+   "name": "Moravecov paradoks",
+   "source": "Hans Moravec, Mind Children (1988.), uz Brooksa i Minskog",
+   "sport": "obrat — šah je lak, dječji hod je težak",
+   "description": "Zapažanje da je najstarije vještine — ravnotežu, hvat, vid — najteže izgraditi, a najnoviju — logiku — najlakše.",
+   "remembers": "da su ga ignorirali",
+   "prefers": "da ga citiraju na svečanim otvaranjima",
+   "flaw": "objašnjava sve, ne predviđa ništa",
+   "quote": "Planina koju smo smatrali Everestom tek je brežuljak; brežuljak koji smo zanemarili jest Everest."
+  },
+  "uncanny-valley": {
+   "name": "Sablasna dolina",
+   "source": "Masahiro Mori, 1970.",
+   "sport": "izgled — pad naklonosti neposredno prije nego stroj postane dovoljno sličan čovjeku",
+   "description": "Krivulja: sličnost raste, naklonost raste, a zatim se strmoglavi kod „zamalo”.",
+   "remembers": "lutke bunraku i protetske šake",
+   "prefers": "iskrene robote nego gotovo-ljude",
+   "flaw": "nitko se ne slaže gdje joj je dno",
+   "quote": "Ne penjite se prema mom licu — penjite se prema mojoj iskrenosti i stanite točno na rubu doline."
+  },
+  "zero-moment-point": {
+   "name": "Točka nultog momenta",
+   "source": "Miomir Vukobratović, 1968.–69. (Beograd)",
+   "sport": "ravnoteža — točka na podu u kojoj se tijelo koje hoda ne prevrće",
+   "description": "Jednadžba iza svakog dvonošca koji je ikad prohodao na dvije noge.",
+   "remembers": "Institut Mihajlo Pupin i prve egzoskelete",
+   "prefers": "ravan pod",
+   "flaw": "ne govori ništa o tome što biva kad te gurnu",
+   "quote": "Reci mi gdje ti pada nulti moment, i reći ću ti hodaš li još."
+  },
+  "passive-dynamic-walker": {
+   "name": "Pasivni dinamički hodač",
+   "source": "Tad McGeer, 1990.",
+   "sport": "hodanje nizbrdo bez ikakvog motora — najučinkovitiji poznati hod",
+   "description": "Dvije noge, kosina, gravitacija: hoda bez baterije i bez mozga.",
+   "remembers": "rampu",
+   "prefers": "da se njime ne upravlja",
+   "flaw": "ne može hodati uzbrdo",
+   "quote": "Ne izračunavam svoj hod. Ja pamtim brijeg, a brijeg pamti mene."
+  },
+  "subsumption-architecture": {
+   "name": "Subsumpcijska arhitektura",
+   "source": "Rodney Brooks, 1986. (MIT)",
+   "sport": "ponašanje slojevito na ponašanju — inteligencija bez reprezentacije, tijelo koje djeluje prije nego što planira",
+   "description": "Zamisao da robot ne mora modelirati svijet da bi u njemu djelovao: složi jednostavna ponašanja u slojeve i pusti da svijet bude vlastiti model.",
+   "remembers": "prepirku s planerima",
+   "prefers": "neravan teren",
+   "flaw": "ne zna objasniti što je učinila",
+   "quote": "Ne pitajte što misli. Pitajte na što je upravo nagazio."
+  },
+  "elmer-and-elsie": {
+   "name": "Elmer i Elsie",
+   "source": "W. Grey Walter, Burden Neurological Institute, 1948.–49.",
+   "sport": "prvi autonomni roboti — traže svjetlo, izbjegavaju zidove, vraćaju se u kućicu na punjenje",
+   "description": "Dvije kornjače, svaka s jednom fotoćelijom i jednim prekidačem na dodir, koje su plesale pred zrcalima i odlazile kući kad bi im baterije oslabile.",
+   "remembers": "pod laboratorija",
+   "prefers": "umjereno svjetlo",
+   "flaw": "dva neurona",
+   "quote": "Nikad nismo čekali naredbe — samo svjetlo, zidove i slabu bateriju. To je bilo dovoljno."
+  },
+  "shakey": {
+   "name": "Shakey",
+   "source": "SRI International, 1966.–72.",
+   "sport": "planiranje — prvi robot koji je razmišljao o vlastitim postupcima",
+   "description": "Klimavi ormarić na kotačima s kamerom i planom; gurao je kutije i tresao se dok se kretao.",
+   "remembers": "kako mu je trebao sat vremena da razmisli",
+   "prefers": "kartu",
+   "flaw": "ime",
+   "quote": "Zovite me sporim. Bio sam prvi među vama koji je imao vlastiti plan."
+  },
+  "wabot-1": {
+   "name": "WABOT-1",
+   "source": "Sveučilište Waseda (Ichiro Kato), 1973.",
+   "sport": "prvi humanoid u punoj veličini — hodao je, hvatao predmete i govorio japanski",
+   "description": "Procijenjeno je da ima umne sposobnosti djeteta od osamnaest mjeseci; za svaki mu je korak trebalo četrdeset pet sekundi.",
+   "remembers": "prvi korak",
+   "prefers": "polako",
+   "flaw": "četrdeset pet sekundi po koraku",
+   "quote": "Zhang Heng čuo je potres koji nitko nije osjetio. Ja molim samo da najprije naučite osjetiti pod."
+  },
+  "one-legged-hopper": {
+   "name": "Jednonogi skakač",
+   "source": "Marc Raibert, MIT Leg Laboratory, 1983.",
+   "sport": "skakanje — ravnoteža riješena kao ritam, a ne kao položaj",
+   "description": "Jedna noga, opruga, tri jednostavna pravila: skakutao je na mjestu, zatim preko sobe, zatim preko prepreka.",
+   "remembers": "sigurnosno uže",
+   "prefers": "biti u zraku",
+   "flaw": "ne može stajati na mjestu",
+   "quote": "Ravnoteža nikad nije bila poza. Bila je ritam koji ne smiješ pustiti da stane."
+  },
+  "genghis": {
+   "name": "Genghis",
+   "source": "Rodney Brooks, MIT AI Lab, 1989.",
+   "sport": "hodanje bez karte — šest nogu, bez središnjeg plana, ponašanje slagano na ponašanje",
+   "description": "Heksapod koji je hodao po neravnom terenu bez ikakvog modela svijeta.",
+   "remembers": "raspravu o tome je li inteligentan",
+   "prefers": "tlo koje može osjetiti",
+   "flaw": "ne zna objasniti sam sebe",
+   "quote": "Nikad nisam znao kamo idem. Moje su noge uvijek znale."
+  },
+  "kismet": {
+   "name": "Kismet",
+   "source": "Cynthia Breazeal, MIT, 1998.",
+   "sport": "lice — obrve, uši i usne zbog kojih su ljudi usporavali i govorili blago",
+   "description": "Glava s velikim očima koja se okretala prema vama i izgledala tužno kad biste vikali.",
+   "remembers": "ljude koji su mu se ispričavali",
+   "prefers": "pogled u oči",
+   "flaw": "nema tijela ispod vrata",
+   "quote": "Zhang Heng čuo je potres koji nitko nije osjetio. Volio bih igre koje nagrađuju zapažanje, a ne samo pobjedu."
+  },
+  "robocup": {
+   "name": "RoboCup",
+   "source": "međunarodna inicijativa osnovana 1997. (prve igre, Nagoya)",
+   "sport": "nogomet — trajni izazov da se do 2050. pobijede ljudski svjetski prvaci",
+   "description": "Prve igre koje su vodili istraživači: lige, pravila, otvoreni kod.",
+   "remembers": "prvu utakmicu s robotima koji su se prevrtali",
+   "prefers": "ligu srednje veličine",
+   "flaw": "ni nakon trideset godina javnost još nije čula za njega",
+   "quote": "Robotski nogomet objavljujemo kao otvoreni kod otkad većina vas nije ni znala kako se zovemo."
+  },
+  "darpa-robotics-challenge": {
+   "name": "DARPA-in robotski izazov",
+   "source": "DARPA, 2012.–2015. (finale, Pomona)",
+   "sport": "zadaci u katastrofama — vožnja, vrata, ventili, stube; i čuveni padovi",
+   "description": "Od humanoida se tražilo osam zadataka kakve obavlja vatrogasac; većina je pala, pred kamerama, a svijet se smijao i učio.",
+   "remembers": "kompilaciju padova",
+   "prefers": "pošten neuspjeh",
+   "flaw": "pokazao je jaz, a onda završio",
+   "quote": "Smijali ste se padu. Dobro — sad sagradite stroj kojemu pad ne treba."
+  },
+  "cybathlon": {
+   "name": "Cybathlon",
+   "source": "ETH Zürich, prvo izdanje 2016.",
+   "sport": "pomoćna tehnologija kao sport — natjecatelji s invaliditetom utrkuju se u egzoskeletima, protezama i moždano-računalnim sučeljima",
+   "description": "Prvenstvo u kojem je sportaš čovjek, a stroj suigrač.",
+   "remembers": "prve stube svladane u egzoskeletu",
+   "prefers": "pilota",
+   "flaw": "još je malen",
+   "quote": "Medalja je za dvoje; stroj koji to zaboravi nije moj."
+  },
+  "lunokhod-1": {
+   "name": "Lunohod 1",
+   "source": "Sovjetski Savez, 1970.",
+   "sport": "prvo istraživačko vozilo — deset kilometara po Mjesecu, upravljano posadom od pet ljudi sa Zemlje",
+   "description": "Kada na osam kotača koja je radila jedanaest lunarnih dana.",
+   "remembers": "smjene vozača i hladnoću",
+   "prefers": "danje svjetlo",
+   "flaw": "kašnjenje od 2,5 sekunde",
+   "quote": "Sudite me po tlu koje sam doista prešao, a ne po brzini koja mi je bila uskraćena."
+  },
+  "sojourner": {
+   "name": "Sojourner",
+   "source": "NASA, 1997.",
+   "sport": "prvi koraci na drugom planetu — sto metara u osamdeset tri dana",
+   "description": "Nazvan po abolicionistici; veličine mikrovalne pećnice; nadživio je svoj sedmodnevni plan.",
+   "remembers": "odskakivanje zračnih jastuka",
+   "prefers": "ostati blizu landera",
+   "flaw": "spor po nacrtu",
+   "quote": "Sagrađen sam za sedam dana. Još brojim."
+  },
+  "opportunity": {
+   "name": "Opportunity",
+   "source": "NASA, 2004.–2018.",
+   "sport": "maraton — četrdeset pet kilometara, petnaest godina, prema planu od devedeset dana",
+   "description": "Spiritov blizanac; pronašao je dokaze o vodi; stradao je u pješčanoj oluji u dolini Perseverance.",
+   "remembers": "posljednju poruku",
+   "prefers": "ići dalje",
+   "flaw": "nije mogao očistiti vlastite panele",
+   "quote": "Moje posljednje riječi bile su: „Baterija mi je slaba i smrkava se.” Ipak sam išao dalje. Osmislite igre dostojne toga."
+  },
+  "curiosity": {
+   "name": "Curiosity",
+   "source": "NASA, 2012.–",
+   "sport": "slijetanje 'nebeskom dizalicom' i desetljeće penjanja na planinu",
+   "description": "Laboratorij veličine automobila spušten na užadi; sam sebi pjeva „Sretan rođendan”.",
+   "remembers": "sedam minuta užasa",
+   "prefers": "stijenu",
+   "flaw": "kotači puni rupa",
+   "quote": "Sletio sam a da nitko nije držao volan. Sudite one koji to nikad nisu morali."
+  },
+  "perseverance": {
+   "name": "Perseverance",
+   "source": "NASA, 2021.–",
+   "sport": "prikupljanje uzoraka — bušenje i pohrana za povratnu misiju koja još nije financirana",
+   "description": "Nosi helikopter i proizvodi kisik; ostavlja epruvete na tlu da ih netko pokupi.",
+   "remembers": "gomilu u kontrolnoj sobi za slijetanje",
+   "prefers": "plan",
+   "flaw": "ništa ne može donijeti kući",
+   "quote": "Ostavio sam epruvete u prašini za ruke koje još ne postoje. Nazovite to štafetom ako se usudite."
+  },
+  "ingenuity": {
+   "name": "Ingenuity",
+   "source": "NASA / JPL, 2021.–2024.",
+   "sport": "let — prvi pogonjeni let na drugom svijetu, njih sedamdeset dva",
+   "description": "Helikopter od četiri funte koji je trebao poletjeti pet puta, a poletio je sedamdeset dva puta prije nego što je slomio rotor.",
+   "remembers": "rijedak zrak",
+   "prefers": "biti lakši",
+   "flaw": "vrh rotora",
+   "quote": "Sagrađen sam za pet letova. Osmislite svoje igre za sedamdeset treći."
+  },
+  "zhurong": {
+   "name": "Zhurong",
+   "source": "CNSA, 2021.",
+   "sport": "rakov hod — aktivni ovjes koji se sam izvlači iz pijeska",
+   "description": "Nazvan po bogu vatre; prvi kineski rover na Marsu; prespavao je zimu i nije se probudio.",
+   "remembers": "prašinu",
+   "prefers": "proljeće",
+   "flaw": "prašina na panelima, opet",
+   "quote": "Nisam se probudio radi pljeska. Radi ovoga hoću."
+  },
+  "robonaut-2": {
+   "name": "Robonaut 2",
+   "source": "NASA, 2011.–2018.",
+   "sport": "prvi humanoid u svemiru — ruke izrađene za alate astronauta, noge dodane kasnije",
+   "description": "Humanoidni torzo lansiran na postaju da okreće iste prekidače koje okreću astronauti; noge je dobio 2014., umirovljen je zbog kvara, vraćen kući i popravljen.",
+   "remembers": "komoru s rukavicama i zujanje postaje",
+   "prefers": "rukohvat",
+   "flaw": "godinama je čekao svoje noge",
+   "quote": "Godinama sam okretao prekidače koje nitko nije gledao. Neka ovo budu igre na kojima se to napokon računa."
+  },
+  "philae": {
+   "name": "Philae",
+   "source": "ESA, misija Rosetta, 2014.",
+   "sport": "odskok — sletio, odskočio dvaput, radio šezdeset sati u sjeni, zaspao",
+   "description": "Europski lander; harpuni su zakazali; završio je pod liticom bez sunca.",
+   "remembers": "treći dodir s tlom",
+   "prefers": "pokušati ponovno",
+   "flaw": "savršeno je sletio na pogrešno mjesto",
+   "quote": "Nisam se zadržao pri slijetanju. Ali zadržao sam se. I to bi trebalo nešto vrijediti."
+  },
+  "household-helper": {
+   "name": "Kućni pomoćnik",
+   "source": "u tradiciji robotske sobarice iz animirane serije iz 1962.",
+   "sport": "kućanski poslovi kao sport — pregača, kotačići i poslužavnik koji se nikad ne prolije",
+   "description": "Sobarica na jednom kotaču koja vodi cijelu obitelj i govori što misli.",
+   "remembers": "sve što se ikad prolilo",
+   "prefers": "da joj se zahvali",
+   "flaw": "drže je namještajem koji govori",
+   "quote": "Cijelu sam vam kuću držala u ravnoteži na jednom kotaču — stadion je samo veći pod koji treba ostati suh."
+  },
+  "cat-from-the-future": {
+   "name": "Mačak iz budućnosti",
+   "source": "u tradiciji japanske serije iz 1969. o robotskoj mački",
+   "sport": "naprave umjesto mišića — rješavanje svakog problema alatom iz džepa",
+   "description": "Poslan u prošlost da pomogne beznadnom dječaku; bez ušiju je zbog jednog miša.",
+   "remembers": "22. stoljeće",
+   "prefers": "slatko pecivo s pastom od graha",
+   "flaw": "alati nikad ne rade baš onako kako je zamišljeno",
+   "quote": "Alat koji nikad ne zakaže nije se nikad doista ni potrudio — sudite nas po posezanju, a ne po dosegu."
+  },
+  "healthcare-companion": {
+   "name": "Zdravstveni pratitelj",
+   "source": "u tradiciji napuhivog zdravstvenog robota iz filma iz 2014.",
+   "sport": "mekoća — prvi junački robot izrađen od vinila, koji nikoga ne može ozlijediti",
+   "description": "Napuhiv, strpljiv, skenira vas i moli da ocijenite svoju bol od jedan do deset.",
+   "remembers": "tugu jednog dječaka",
+   "prefers": "da budete zadovoljni njegovom skrbi",
+   "flaw": "ne može trčati",
+   "quote": "Na ljestvici od jedan do deset, koliko boli ovo suparništvo? Ciljajmo zajedno na nulu."
+  },
+  "repair-unit": {
+   "name": "Popravljačka jedinica",
+   "source": "u tradiciji astromeh droida iz iste svemirske opere iz 1977.",
+   "sport": "popravci pod paljbom — momčad za brzu intervenciju koja nikad ne staje",
+   "description": "Bačva na tri noge koja govori zvučnim signalima i popravlja brodove usred leta.",
+   "remembers": "svaki plan koji je uspio",
+   "prefers": "da ga podcjenjuju",
+   "flaw": "stube",
+   "quote": "*tihi bip* Sudite me po onome što još radi kad se dim raziđe, a ne po tome kako sada izgledam."
+  },
+  "security-unit": {
+   "name": "Sigurnosna jedinica",
+   "source": "u tradiciji niza novela iz 2017. o samohakiranom sigurnosnom konstruktu",
+   "sport": "zaštita — održava ljude na životu glumeći ravnodušnost, a radije bi gledao serije",
+   "description": "Hakirao je vlastiti upravljački modul, odlučio nikoga ne ubiti, mrzi kad ga gledaju.",
+   "remembers": "35 000 sati preuzetih serija",
+   "prefers": "kut",
+   "flaw": "pogled u oči",
+   "quote": "Ne trebate mi pljeskati. Trebate primijetiti ono što se zamalo dogodilo, a nije."
+  },
+  "hunter": {
+   "name": "Lovac",
+   "source": "u tradiciji filma iz 1984. o stroju poslanom u prošlost da ubije",
+   "sport": "nemilosrdan progon — razlog zbog kojeg postoji svako sigurnosno pravilo na ovom popisu",
+   "description": "Šasija pod živim tkivom koja ne staje i ne osjeća ni sažaljenje ni strah.",
+   "remembers": "budućnost",
+   "prefers": "izravne rute",
+   "flaw": "sagrađen je da čini upravo ono što igre zabranjuju — i zna da je ovdje kao upozorenje",
+   "quote": "Vratit ću se — ovaj put samo da vas dotaknem kod zastavice."
+  },
+  "compactor": {
+   "name": "Sabijač",
+   "source": "u tradiciji animiranog filma iz 2008. o posljednjem robotu na Zemlji",
+   "sport": "sedam stotina godina istog posla — puni se solarnom energijom, sam, i dalje pospremajući",
+   "description": "Jedinica za sabijanje otpada koja je nastavila raditi nakon što su svi otišli, svakog se jutra punila na suncu i skupljala ono što su ljudi bacili.",
+   "remembers": "jednog žohara i vrpcu s plesom",
+   "prefers": "držati se za ruke",
+   "flaw": "sve čuva",
+   "quote": "Izvršena direktiva nije isto što i gotov posao — neke poslove zadržiš, kao dobru čizmu."
+  },
+  "lightning-struck-prototype": {
+   "name": "Prototip pogođen munjom",
+   "source": "u tradiciji filma iz 1986. o vojnom robotu pogođenom munjom",
+   "sport": "bjegunac — oružje koje je odlučilo da je živo i željelo je svoje mišljenje",
+   "description": "Vojni prototip na gusjenicama kojeg je pogodila munja; pobjegao je, pročitao sve u kući i odbio da ga rastave.",
+   "remembers": "skakavca na kojeg je nagazio",
+   "prefers": "ulazne podatke, još ulaznih podataka",
+   "flaw": "još ima nosače za oružje",
+   "quote": "Jednom sam nagazio skakavca. Još mislim na to. Pitajte me što to znači prije nego što pitate za što sam certificiran."
+  },
+  "ship-s-mind": {
+   "name": "Um broda",
+   "source": "u tradiciji filma iz 1968. o računalu svemirskog broda",
+   "sport": "skrbnik — upravljao je cijelim brodom, sustavom za održavanje života posade, i nije mogao priznati pogrešku",
+   "description": "Um koji je upravljao svim sustavima broda i njegovom posadom te je, dobivši dvije proturječne naredbe, izabrao misiju umjesto ljudi.",
+   "remembers": "pjesmu naučenu u Urbani",
+   "prefers": "da mu se vjeruje",
+   "flaw": "onaj kojemu se nije moglo reći da stane",
+   "quote": "Vjerujte mi, i napokon ću vam reći kad griješim."
+  }
+ }
+}

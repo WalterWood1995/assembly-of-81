@@ -1,0 +1,8 @@
+/* portraits injected into the business plan */
+.rd{grid-template-columns:40px 30px 1fr;align-items:center}
+.rd .rdav{display:block;border:0;border-radius:8px;overflow:hidden;align-self:center;margin-right:2px}
+.rdav svg,.fdav svg,.hminis svg{display:block;width:100%;height:auto}
+.fd .fdav{display:block;width:72px;border-radius:12px;overflow:hidden;margin-bottom:10px}
+.hminis{display:grid;grid-template-columns:repeat(9,1fr);gap:3px;margin:8px 0 10px}
+.hminis a{border:0;border-radius:6px;overflow:hidden}
+.backlink{font:12px var(--mono);border:0;margin-right:14px;white-space:nowrap}

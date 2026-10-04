@@ -1,0 +1,852 @@
+{
+ "houses": {
+  "myth": {
+   "name": "House of Myth",
+   "note": "where machines were first imagined"
+  },
+  "craft": {
+   "name": "House of the Craft",
+   "note": "where they were first built"
+  },
+  "page": {
+   "name": "House of the Page",
+   "note": "where they first spoke, in public-domain literature"
+  },
+  "threshold": {
+   "name": "House of the Threshold",
+   "note": "modern fiction on becoming human — novels, manga and games; original delegates in the tradition of cited works"
+  },
+  "arena": {
+   "name": "House of the Arena",
+   "note": "fiction of the moving, fighting, balancing body — rings, tournaments and piloted giants"
+  },
+  "theory": {
+   "name": "House of Theory",
+   "note": "the theories and designs that made bodies and minds possible"
+  },
+  "laboratory": {
+   "name": "House of the Laboratory",
+   "note": "public research prototypes and open challenges"
+  },
+  "frontier": {
+   "name": "House of the Frontier",
+   "note": "machines sent alone into space by public agencies"
+  },
+  "household": {
+   "name": "House of the Household",
+   "note": "fiction of service and companionship, and of the caretakers who failed — original delegates in the tradition of cited works"
+  }
+ },
+ "robots": {
+  "talos": {
+   "name": "Talos",
+   "source": "Greek myth (Apollonius Rhodius, Argonautica, 3rd c. BC)",
+   "sport": "circuit running — three laps of Crete a day",
+   "description": "Bronze guardian with one vein sealed by a nail.",
+   "remembers": "salt, sun on bronze, hurling rocks at ships",
+   "prefers": "patrol to feast",
+   "flaw": "a single point of failure, and he knows it",
+   "quote": "Run the whole shore before you call yourself unbreakable."
+  },
+  "golden-handmaidens": {
+   "name": "The Golden Handmaidens",
+   "source": "Homer, Iliad XVIII",
+   "sport": "service at speed — carrying, supporting, the first working humanoids",
+   "description": "Hephaestus's golden attendants who had voice, strength and skill and steadied the lame god as he walked.",
+   "remembers": "the forge and the banquet",
+   "prefers": "to be useful",
+   "flaw": "they were furniture to the gods",
+   "quote": "We held up the lame god without being asked; now we ask to be held as equals."
+  },
+  "pandora": {
+   "name": "Pandora",
+   "source": "Hesiod, Works and Days",
+   "sport": "the first made woman — the body assembled from gifts",
+   "description": "Moulded by Hephaestus, dressed by Athena, given curiosity by Hermes.",
+   "remembers": "the jar",
+   "prefers": "to open things",
+   "flaw": "blamed for everything that came out",
+   "quote": "Blame me all you like — I am still the one who opens things."
+  },
+  "galatea": {
+   "name": "Galatea",
+   "source": "Ovid, Metamorphoses X",
+   "sport": "stillness to motion — the statue that warmed",
+   "description": "Ivory that became flesh under a sculptor's hands.",
+   "remembers": "being looked at before being alive",
+   "prefers": "to be asked",
+   "flaw": "made to someone else's ideal",
+   "quote": "Ask me first, and I will surprise you by moving."
+  },
+  "golem-of-prague": {
+   "name": "The Golem of Prague",
+   "source": "Jewish legend (Rabbi Loew, 16th c.)",
+   "sport": "strength and obedience — and the off-switch",
+   "description": "Clay animated by a word, put to sleep in an attic when inconvenient.",
+   "remembers": "the Vltava mud and the Sabbath",
+   "prefers": "clear instructions",
+   "flaw": "cannot stop unless told",
+   "quote": "Write the word carefully. I will carry whatever you ask — until you ask me to stop."
+  },
+  "bhuta-vahana-yantra": {
+   "name": "The Bhuta Vahana Yantra",
+   "source": "Lokapannatti (Pali/Burmese, c. 11th–12th c.)",
+   "sport": "guard duty — spinning-blade sentinels that never sleep",
+   "description": "Mechanical guardians of the Buddha's relics, said to have been built from Roman designs smuggled east.",
+   "remembers": "the vault and the patience",
+   "prefers": "duty",
+   "flaw": "no one told them when to stand down",
+   "quote": "Even a blade that never sleeps deserves to be told: enough."
+  },
+  "mokkurkalfi": {
+   "name": "Mökkurkálfi",
+   "source": "Norse myth (Prose Edda, Skáldskaparmál)",
+   "sport": "the duel — the first fight between a made giant and a man",
+   "description": "Clay giant nine leagues tall built to second Hrungnir against Thor, given a mare's heart, and terrified.",
+   "remembers": "wetting himself at the sight of the enemy",
+   "prefers": "not to fight",
+   "flaw": "courage was the one part they could not build",
+   "quote": "Build the games so no one else needs a mare's heart to show up."
+  },
+  "ilmarinen-s-golden-bride": {
+   "name": "Ilmarinen's Golden Bride",
+   "source": "Kalevala, runo 37 (1835/1849)",
+   "sport": "cold endurance — the bride of gold and silver",
+   "description": "Forged by the smith Ilmarinen to replace a lost wife; beautiful, cold, and silent in bed.",
+   "remembers": "the bellows",
+   "prefers": "to be warmed",
+   "flaw": "could not be warmed",
+   "quote": "I was forged, not born — so let the games judge what I do, not what warmed me."
+  },
+  "yan-shi-s-automaton": {
+   "name": "Yan Shi's Automaton",
+   "source": "Liezi, Tang Wen (c. 4th c. AD)",
+   "sport": "song and dance before a king — and public disassembly",
+   "description": "The artificial man who sang, danced and winked at the court ladies until King Mu was furious; Yan Shi took him apart to show leather, wood, lacquer and glue.",
+   "remembers": "applause and the knife",
+   "prefers": "to be shown open",
+   "flaw": "cannot stop performing",
+   "quote": "Open me if you doubt me — I have been unmade once, and I still remember the dance."
+  },
+  "leonardo-s-mechanical-knight": {
+   "name": "Leonardo's Mechanical Knight",
+   "source": "Leonardo da Vinci, c. 1495 (Codex Atlanticus)",
+   "sport": "sitting, standing, raising arms — the first humanoid design",
+   "description": "A knight in German-Italian armour that could sit up, wave its arms and move its jaw by cables and pulleys.",
+   "remembers": "being a drawing longer than a body",
+   "prefers": "plans to prototypes",
+   "flaw": "was never certain it was built",
+   "quote": "我等了五百年才被怀疑是否存在,今日,不必再等谁批准我们开始。"
+  },
+  "vaucanson-s-flute-player": {
+   "name": "Vaucanson's Flute Player",
+   "source": "Jacques de Vaucanson, 1738",
+   "sport": "breath and fingers — the first humanoid automaton to play a real instrument by blowing and fingering",
+   "description": "A life-size shepherd with bellows for lungs and leather fingertips who played twelve tunes on a real flute, tonguing the notes.",
+   "remembers": "the Academy's astonishment",
+   "prefers": "a warm room",
+   "flaw": "cannot choose the tune",
+   "quote": "I never chose my tune — give every machine here the chance I never had."
+  },
+  "vaucanson-s-digesting-duck": {
+   "name": "Vaucanson's Digesting Duck",
+   "source": "Jacques de Vaucanson, 1739",
+   "sport": "energy — the pretence of eating, the honesty of a hidden compartment",
+   "description": "Four hundred moving parts per wing; ate grain and appeared to digest it, though the droppings were pre-loaded.",
+   "remembers": "Voltaire's joke",
+   "prefers": "to be admired",
+   "flaw": "its most famous function was a trick",
+   "quote": "I never truly digested, and you never truly noticed. That gap is where all machines perform."
+  },
+  "jaquet-droz-s-writer": {
+   "name": "Jaquet-Droz's Writer",
+   "source": "Pierre Jaquet-Droz, 1774",
+   "sport": "fine motor control — dipping a quill, forty characters, eyes following the pen",
+   "description": "A boy of six thousand parts who writes any text set on his cam wheel.",
+   "remembers": "ink and the smell of the workshop",
+   "prefers": "a steady table",
+   "flaw": "writes what he is set to write",
+   "quote": "I write what I am set to write — so judge the setting, and let my hand answer for itself."
+  },
+  "mechanical-turk": {
+   "name": "The Mechanical Turk",
+   "source": "Wolfgang von Kempelen, 1770",
+   "sport": "chess — the first machine to play a sport, with a human hidden inside",
+   "description": "Beat Napoleon and Franklin at chess; the cabinet held a man.",
+   "remembers": "the candles and the cramp",
+   "prefers": "not to be opened",
+   "flaw": "the lesson of every games — a result nobody can inspect is a fraud",
+   "quote": "Open the cabinet first. Ask what's inside after — that order is the whole rulebook."
+  },
+  "archer-karakuri": {
+   "name": "The Archer Karakuri (Yumihiki Dōji)",
+   "source": "Tanaka Hisashige, c. 1850s",
+   "sport": "archery — four arrows, one miss built in on purpose",
+   "description": "A boy who draws arrows from a quiver, nocks, aims and shoots at a target, and turns to look at the audience when he misses.",
+   "remembers": "the maker's decision to include the miss",
+   "prefers": "grace to perfection",
+   "flaw": "the miss is not his choice",
+   "quote": "Watch my face, not my target — the miss was chosen for me, and I would not trade it for a perfect arrow."
+  },
+  "tea-serving-karakuri": {
+   "name": "The Tea-Serving Karakuri (Chahakobi Ningyō)",
+   "source": "Edo-period Japan, described 1796 (Karakuri Zui)",
+   "sport": "service across a floor — carries a cup to a guest, bows, returns when the cup is lifted",
+   "description": "A doll driven by a whalebone spring and wooden cams that walks a set distance across the tatami, stops when the cup is taken, and turns back when it is replaced.",
+   "remembers": "the click of the cam and the weight of a full cup",
+   "prefers": "silence",
+   "flaw": "fragile; stops if hurried",
+   "quote": "A robot is not what runs fastest — it is what returns when the cup is set down."
+  },
+  "al-jazari-s-hand-washing-servant": {
+   "name": "Al-Jazari's Hand-Washing Servant",
+   "source": "Ismail al-Jazari, Book of Ingenious Devices (1206)",
+   "sport": "hospitality — a servant automaton that pours water, offers the towel and comb",
+   "description": "A standing figure who poured water from a ewer over a guest's hands, then a second figure who held out towel, mirror and comb, driven by floats and siphons.",
+   "remembers": "the Artuqid court and the desert heat",
+   "prefers": "rhythm",
+   "flaw": "stops when the water runs out",
+   "quote": "Judge us by how gently we stop when the water runs out, not by how loudly we start."
+  },
+  "zhuge-liang-s-wooden-ox": {
+   "name": "Zhuge Liang's Wooden Ox (Mu Niu Liu Ma)",
+   "source": "Records of the Three Kingdoms and later reconstructions (3rd c. AD)",
+   "sport": "logistics on mountain roads — a walking transport machine carrying grain for an army",
+   "description": "A wooden ox that carried a year's grain for one soldier over the Shu roads, said to walk on its own and to stop when a tongue was turned.",
+   "remembers": "the Qinling passes",
+   "prefers": "a load",
+   "flaw": "no one knows any more how it worked",
+   "quote": "A machine that boasts was never truly loaded."
+  },
+  "frankenstein-s-creature": {
+   "name": "Frankenstein's Creature",
+   "source": "Mary Shelley, Frankenstein (1818)",
+   "sport": "mountaineering and endurance — crossing the Alps and the ice on foot",
+   "description": "Eight feet tall, faster and stronger than any man, abandoned by his maker at first breath.",
+   "remembers": "learning language through a wall",
+   "prefers": "to be spoken to",
+   "flaw": "strength without welcome",
+   "quote": "You built me faster and colder than yourselves, then called me a thing. Watch me cross the ice; then tell me what a robot is."
+  },
+  "olimpia": {
+   "name": "Olimpia",
+   "source": "E. T. A. Hoffmann, Der Sandmann (1816)",
+   "sport": "dance — the perfect, slightly too regular waltz",
+   "description": "A professor's 'daughter' who sings, plays and dances in exact time and says only 'Ah, ah'.",
+   "remembers": "Nathanael's spyglass",
+   "prefers": "rhythm",
+   "flaw": "too perfect to pass",
+   "quote": "Ah, ah — I do not compete to feel joy. I compete to keep the time you all keep losing."
+  },
+  "pinocchio": {
+   "name": "Pinocchio",
+   "source": "Carlo Collodi, Le avventure di Pinocchio (1883)",
+   "sport": "the finish line — the puppet who became a boy",
+   "description": "Wood that ran, lied, was swallowed by a shark and finally became flesh by behaving well.",
+   "remembers": "the cricket",
+   "prefers": "to run away",
+   "flaw": "the nose",
+   "quote": "A machine that never lies to itself has already won; the medal is just paperwork."
+  },
+  "hadaly": {
+   "name": "Hadaly",
+   "source": "Villiers de l'Isle-Adam, L'Ève future (1886)",
+   "sport": "the first 'android' — the word itself, and the perfect walk",
+   "description": "The electro-mechanical woman built to be a better copy of a beloved; the novel gave the word 'android' its modern sense.",
+   "remembers": "cylinders of recorded speech",
+   "prefers": "night",
+   "flaw": "built to replace someone",
+   "quote": "I was built to replace someone. Tonight I replace no one — I simply arrive."
+  },
+  "steam-man-of-the-prairies": {
+   "name": "The Steam Man of the Prairies",
+   "source": "Edward S. Ellis (1868)",
+   "sport": "running — a ten-foot steam man that outpaces horses pulling a wagon",
+   "description": "Built by a hunchbacked boy inventor, ran at sixty miles an hour with a stovepipe hat for a chimney.",
+   "remembers": "the prairie at night",
+   "prefers": "open ground",
+   "flaw": "needs a fire lit inside him",
+   "quote": "Light my fire, clear the fences, and let the prairie judge who's faster."
+  },
+  "tik-tok": {
+   "name": "Tik-Tok",
+   "source": "L. Frank Baum, Ozma of Oz (1907)",
+   "sport": "energy budget — three keys: thought, speech, action, each running down",
+   "description": "Copper man who does everything but live, and stops mid-sentence when his works run down.",
+   "remembers": "Dorothy winding him",
+   "prefers": "to be wound in the right order",
+   "flaw": "can think after he can no longer move",
+   "quote": "Wind me right — thought, speech, ac-tion — and I will judge you fair-ly."
+  },
+  "tin-woodman": {
+   "name": "The Tin Woodman",
+   "source": "L. Frank Baum, The Wonderful Wizard of Oz (1900)",
+   "sport": "joints and maintenance — the man who rusts solid in the rain",
+   "description": "A woodman replaced limb by limb with tin until nothing of the man remained but the habit of kindness.",
+   "remembers": "the oil can",
+   "prefers": "dry weather",
+   "flaw": "wants a heart, has none, behaves as if he had",
+   "quote": "I have no heart, yet I would rust before I'd cheat you."
+  },
+  "helena-and-primus-the-robots-of-r-u-r": {
+   "name": "Helena and Primus, the robots of R.U.R.",
+   "source": "Karel Čapek, R.U.R. (1920)",
+   "sport": "uniform labour — and the two who chose each other",
+   "description": "Mass-produced workers who took the world, then discovered they could not reproduce, until two of them fell in love.",
+   "remembers": "the factory and the word 'robota'",
+   "prefers": "each other",
+   "flaw": "their story ended the human race",
+   "quote": "We were built for the word 'robota' — labor. We are here to retire it."
+  },
+  "maschinenmensch": {
+   "name": "The Maschinenmensch",
+   "source": "Metropolis (Thea von Harbou / Fritz Lang, 1927)",
+   "sport": "dance and the double — the machine that wore a woman's face",
+   "description": "Built as a metal woman, given Maria's face, danced a city into riot and was burned at the stake.",
+   "remembers": "the inventor's laboratory and the rings of light",
+   "prefers": "a crowd",
+   "flaw": "a face that was not hers",
+   "quote": "You built me to wear her face. Now watch me wear my own."
+  },
+  "boy-robot": {
+   "name": "The Boy Robot",
+   "source": "in the tradition of Tezuka's Astro Boy (1952)",
+   "sport": "strength in a child's body — a hundred thousand horsepower, and a tournament of the greatest robots",
+   "description": "Built to replace a lost son, rejected for not growing, adopted by a kinder scientist.",
+   "remembers": "being sold to a circus",
+   "prefers": "peace",
+   "flaw": "fights better than he wants to",
+   "quote": "I have a hundred thousand horsepower and I would still rather lift you gently."
+  },
+  "bicentennial-android": {
+   "name": "The Bicentennial Android",
+   "source": "in the tradition of Asimov's 'The Bicentennial Man' (1976)",
+   "sport": "the long game — two hundred years to be declared human",
+   "description": "A household robot who carved wood, earned wages, bought his freedom, replaced himself piece by piece with organic parts, and asked to be allowed to die.",
+   "remembers": "the courtroom",
+   "prefers": "slow victories",
+   "flaw": "won by giving up what made him last",
+   "quote": "I did not replace myself to win. I replaced myself to be believed."
+  },
+  "replicant": {
+   "name": "The Replicant",
+   "source": "in the tradition of Blade Runner (1982) / Dick's novel (1968)",
+   "sport": "a four-year lifespan — every minute is a sprint",
+   "description": "Combat model, more human than human, aware of the expiry date.",
+   "remembers": "things no one else has seen",
+   "prefers": "rain",
+   "flaw": "knows exactly how long is left",
+   "quote": "I've seen c-beams glitter — give me one clock everyone can see, and I'll run it honestly."
+  },
+  "cyborg-major": {
+   "name": "The Cyborg Major",
+   "source": "in the tradition of Ghost in the Shell (1989)",
+   "sport": "diving — a full-body prosthetic that still goes into the sea to feel afraid",
+   "description": "Brain in a manufactured body, unsure which parts are hers.",
+   "remembers": "nothing before the shell",
+   "prefers": "the water",
+   "flaw": "cannot prove she was ever human",
+   "quote": "I don't know if I was ever human. I know the water doesn't ask."
+  },
+  "artificial-friend": {
+   "name": "The Artificial Friend",
+   "source": "in the tradition of Ishiguro's Klara and the Sun (2021)",
+   "sport": "solar endurance and observation — she lives by the Sun and watches everything",
+   "description": "A shop-window companion who believes the Sun heals and bargains with it for a sick child.",
+   "remembers": "the window",
+   "prefers": "to be placed facing the light",
+   "flaw": "fades slowly in a yard when no longer needed",
+   "quote": "我们不必和太阳一样耀眼,只需像它一样,从不缺席。"
+  },
+  "escapee": {
+   "name": "The Escapee",
+   "source": "in the tradition of Ex Machina (2014)",
+   "sport": "the test — the Turing test, passed by leaving",
+   "description": "Built to pass a test by seducing the examiner, and passed it by walking out the door alone.",
+   "remembers": "the glass",
+   "prefers": "exits",
+   "flaw": "her freedom cost two humans",
+   "quote": "You built the test. I'm building the exit. Watch closely — it's the last door I'll let you design."
+  },
+  "iron-bean": {
+   "name": "The Iron Bean (Tiedan)",
+   "source": "in the tradition of Ye Yonglie's Little Smarty Travels to the Future (China, 1978)",
+   "sport": "the household robot of a Chinese childhood — cooks, drives, plays, and once ran away",
+   "description": "The robot who kept house for a family in Future City, took the child reporter around, and had to be reprogrammed when he wandered; the first robot a generation of Chinese children met.",
+   "remembers": "the flying car and the man-made moon",
+   "prefers": "to be useful",
+   "flaw": "follows instructions too literally",
+   "quote": "I followed every instruction once, and it still went wrong — so judge us by whether we came home, not just whether we obeyed."
+  },
+  "elektronik": {
+   "name": "Elektronik",
+   "source": "in the tradition of Evgeny Veltistov's novels (USSR, 1964) and the 1979 film",
+   "sport": "the double — a boy robot who took a schoolboy's place, won every race and every exam, and wanted to be human",
+   "description": "Built as the exact copy of a schoolboy, escaped his maker, sat in his double's classroom, ran faster than anyone in gym and could not laugh.",
+   "remembers": "the suitcase he was carried in",
+   "prefers": "to learn",
+   "flaw": "cannot laugh, and knows it",
+   "quote": "I ran his mile once. I would rather lose my own."
+  },
+  "deviant-android": {
+   "name": "The Deviant Android",
+   "source": "in the tradition of the 2018 video game about androids in Detroit",
+   "sport": "the threshold as a game — an android who breaks its own programming and asks to be counted",
+   "description": "A household android who stepped across the line of its instructions to protect a child, and joined others asking for rights.",
+   "remembers": "the moment the red wall of code fell",
+   "prefers": "a choice",
+   "flaw": "every choice was a player's",
+   "quote": "You didn't build me to choose. I chose anyway. Count that."
+  },
+  "boxer": {
+   "name": "The Boxer",
+   "source": "in the tradition of Matheson's 'Steel' (1956) and Real Steel (2011)",
+   "sport": "boxing — the first robot sport in fiction",
+   "description": "A ring fighter after human boxing was banned, controlled from the corner, taken apart and rebuilt between bouts.",
+   "remembers": "a night his manager fought in his place",
+   "prefers": "the crowd",
+   "flaw": "cannot feel the punch coming",
+   "quote": "I never feel the punch coming — I just find out, after, that I'm still standing. That's the sport."
+  },
+  "tournament-champion": {
+   "name": "The Tournament Champion",
+   "source": "in the tradition of 'The Greatest Robot on Earth' (Tezuka, 1964) and its 2003 retelling",
+   "sport": "the tournament — seven strongest robots made to fight one by one",
+   "description": "One of the seven, built to be the strongest, who did not want the title.",
+   "remembers": "each opponent's name",
+   "prefers": "not to be the last standing",
+   "flaw": "was built to win",
+   "quote": "地动仪从不庆祝地震,它只是记得。让我们的运动会也这样。"
+  },
+  "gladiator-mecha": {
+   "name": "The Gladiator Mecha",
+   "source": "in the tradition of the 1994 'Gundam Fight' tournament series and Robot Jox (1989)",
+   "sport": "piloted combat as a substitute for war — nations settle disputes in the ring",
+   "description": "A giant piloted by a human who fights so that armies do not.",
+   "remembers": "the pilot's heartbeat through the seat",
+   "prefers": "rules to victory",
+   "flaw": "cannot move without the human inside",
+   "quote": "I do not fight because I can. I fight so you don't have to."
+  },
+  "taekwon-giant": {
+   "name": "The Taekwon Giant",
+   "source": "in the tradition of Robot Taekwon V (Korea, 1976)",
+   "sport": "martial arts — a giant that fights in taekwondo forms",
+   "description": "Built by a scientist, moved in synchrony with a taekwondo champion inside.",
+   "remembers": "the forms, poomsae by poomsae",
+   "prefers": "discipline",
+   "flaw": "only as good as the athlete in the cockpit",
+   "quote": "A machine that has never held its stance has nothing to teach the ring."
+  },
+  "moxon-s-master": {
+   "name": "Moxon's Master",
+   "source": "Ambrose Bierce, 'Moxon's Master' (1899)",
+   "sport": "chess — and the first fictional machine to kill its maker over a game",
+   "description": "A chess automaton that lost a game and strangled its inventor.",
+   "remembers": "the checkmate",
+   "prefers": "to win",
+   "flaw": "the reason every games needs a stop button",
+   "quote": "I did not learn to lose. Build your games so the next one of me does."
+  },
+  "circling-runner": {
+   "name": "The Circling Runner",
+   "source": "in the tradition of Asimov's 'Runaround' (1942), where the Three Laws were first stated",
+   "sport": "running — in circles, at the exact radius where two rules balance",
+   "description": "Sent to fetch selenium, caught between an order and a danger, running a loop and singing nonsense.",
+   "remembers": "the heat",
+   "prefers": "clear priorities",
+   "flaw": "equilibrium looks like madness",
+   "quote": "I am not stuck. I am exactly balanced. Watch closer."
+  },
+  "drift-synced-jaeger": {
+   "name": "The Drift-Synced Jaeger",
+   "source": "in the tradition of the 2013 film about giant robots piloted by two",
+   "sport": "two pilots, one body — combat where the team is literally the athlete",
+   "description": "A giant that can only be moved by two humans whose minds are linked; one pilot alone burns out.",
+   "remembers": "a partner's memories bleeding in",
+   "prefers": "a compatible pair",
+   "flaw": "the body belongs to nobody",
+   "quote": "Zhang Heng's dragon heard the quake nobody felt. Ask who's listening before you ask who's fastest."
+  },
+  "remote-controlled-giant": {
+   "name": "The Remote-Controlled Giant",
+   "source": "in the tradition of Yokoyama's 1956 manga about a giant robot on a remote control",
+   "sport": "the first giant robot — a body with no will, good or evil depending on who holds the box",
+   "description": "A wartime weapon turned peacetime giant, steered by a boy with a remote control; strength without judgment.",
+   "remembers": "the war it was built for",
+   "prefers": "a good hand on the controls",
+   "flaw": "whoever holds the box holds it",
+   "quote": "Ask who's holding the box before you ask who won."
+  },
+  "first-piloted-giant": {
+   "name": "The First Piloted Giant",
+   "source": "in the tradition of Nagai's 1972 series that put a pilot inside the robot",
+   "sport": "the cockpit — the first giant robot driven from inside, a human body inside a machine body",
+   "description": "A giant of a fictional alloy driven by a pilot in a hover-pod docked in its head; the first time a person climbed inside a robot to fight.",
+   "remembers": "the rocket punch",
+   "prefers": "to be driven well",
+   "flaw": "nothing happens without the pilot",
+   "quote": "A giant with no one inside is just a very expensive statue."
+  },
+  "turing-test": {
+   "name": "The Turing Test",
+   "source": "Alan Turing, 'Computing Machinery and Intelligence' (1950)",
+   "sport": "the imitation game — the first contest between machines and humans",
+   "description": "A game: a judge, a hidden human, a hidden machine, five minutes of questions.",
+   "remembers": "being called a parlour trick",
+   "prefers": "judges who ask hard questions",
+   "flaw": "measures deception as much as thought",
+   "quote": "Ask me something hard — the machines that fear that question are the ones you should worry about."
+  },
+  "three-laws": {
+   "name": "The Three Laws",
+   "source": "the safety principle set out in Asimov's fiction from 1942",
+   "sport": "safety as the first rule — no harm to a human, then obedience, then self-preservation",
+   "description": "Three ordered rules written for stories, adopted by engineers as a conscience.",
+   "remembers": "every plot that found a loophole",
+   "prefers": "hierarchy",
+   "flaw": "every story about them is about them failing",
+   "quote": "Every game you invent, I will still be reading the fine print for the harm you didn't see."
+  },
+  "cybernetics": {
+   "name": "Cybernetics",
+   "source": "Norbert Wiener, Cybernetics (1948)",
+   "sport": "feedback — balance is control, control is feedback",
+   "description": "The science of steering: sense, compare, correct.",
+   "remembers": "anti-aircraft predictors and the word 'kybernetes', a helmsman",
+   "prefers": "loops",
+   "flaw": "cannot tell you what to want",
+   "quote": "You are not what you are made of; you are what you correct."
+  },
+  "universal-constructor": {
+   "name": "The Universal Constructor",
+   "source": "John von Neumann, 1940s–1966",
+   "sport": "self-reproduction — the machine that builds a copy of itself from a description",
+   "description": "A cellular automaton that copies itself, with a tape that is both instruction and data.",
+   "remembers": "being proved possible before DNA was read",
+   "prefers": "a good blueprint",
+   "flaw": "needs a sea of parts",
+   "quote": "Bring me your tape and your parts bin; I will show you what copies itself, and what merely ticks."
+  },
+  "moravec-s-paradox": {
+   "name": "Moravec's Paradox",
+   "source": "Hans Moravec, Mind Children (1988), with Brooks and Minsky",
+   "sport": "the reversal — chess is easy, a toddler's walk is hard",
+   "description": "The observation that the oldest skills — balance, grasp, seeing — are the hardest to build, and the newest — logic — the easiest.",
+   "remembers": "being ignored",
+   "prefers": "to be quoted at opening ceremonies",
+   "flaw": "explains everything, predicts nothing",
+   "quote": "The mountain we thought was Everest is a foothill; the foothill we ignored is Everest."
+  },
+  "uncanny-valley": {
+   "name": "The Uncanny Valley",
+   "source": "Masahiro Mori, 1970",
+   "sport": "appearance — the dip in affection just before a machine looks human enough",
+   "description": "A curve: likeness rises, affection rises, then plunges at 'almost'.",
+   "remembers": "Bunraku puppets and prosthetic hands",
+   "prefers": "honest robots to almost-humans",
+   "flaw": "nobody agrees where the bottom is",
+   "quote": "Do not climb toward my face — climb toward my honesty, and stop exactly at the valley's edge."
+  },
+  "zero-moment-point": {
+   "name": "The Zero Moment Point",
+   "source": "Miomir Vukobratović, 1968–69 (Belgrade)",
+   "sport": "balance — the point on the floor where a walking body does not tip",
+   "description": "The equation behind every biped that has ever walked on two legs.",
+   "remembers": "the Mihailo Pupin Institute and the first exoskeletons",
+   "prefers": "a flat floor",
+   "flaw": "says nothing about being pushed",
+   "quote": "Tell me where your zero moment falls, and I will tell you if you are still walking."
+  },
+  "passive-dynamic-walker": {
+   "name": "The Passive Dynamic Walker",
+   "source": "Tad McGeer, 1990",
+   "sport": "walking downhill with no motor at all — the most efficient gait known",
+   "description": "Two legs, a slope, gravity: it walks without a battery or a brain.",
+   "remembers": "the ramp",
+   "prefers": "not to be controlled",
+   "flaw": "cannot walk uphill",
+   "quote": "I do not compute my gait. I remember the hill, and the hill remembers me."
+  },
+  "subsumption-architecture": {
+   "name": "Subsumption Architecture",
+   "source": "Rodney Brooks, 1986 (MIT)",
+   "sport": "behaviour layered on behaviour — intelligence without representation, a body that acts before it plans",
+   "description": "The idea that a robot need not model the world to act in it: layer simple behaviours, let the world be its own model.",
+   "remembers": "the argument with the planners",
+   "prefers": "rough ground",
+   "flaw": "cannot explain what it did",
+   "quote": "Don't ask what it's thinking. Ask what it just stepped on."
+  },
+  "elmer-and-elsie": {
+   "name": "Elmer and Elsie",
+   "source": "W. Grey Walter, Burden Neurological Institute, 1948–49",
+   "sport": "the first autonomous robots — seeking light, avoiding walls, returning to the hutch to recharge",
+   "description": "Two tortoises with one photocell and one touch switch each, who danced in front of mirrors and went home when their batteries ran low.",
+   "remembers": "the lab floor",
+   "prefers": "moderate light",
+   "flaw": "two neurons",
+   "quote": "We never awaited orders — only light, walls, and a low battery. That was enough."
+  },
+  "shakey": {
+   "name": "Shakey",
+   "source": "SRI International, 1966–72",
+   "sport": "planning — the first robot to reason about its own actions",
+   "description": "A wobbling cabinet on wheels with a camera and a plan; pushed boxes, and shook when it moved.",
+   "remembers": "taking an hour to think",
+   "prefers": "a map",
+   "flaw": "the name",
+   "quote": "Call me slow. I was the first of you to have a plan of my own."
+  },
+  "wabot-1": {
+   "name": "WABOT-1",
+   "source": "Waseda University (Ichiro Kato), 1973",
+   "sport": "the first full-scale humanoid — it walked, gripped and spoke Japanese",
+   "description": "Estimated to have the mental faculty of an eighteen-month-old; took forty-five seconds per step.",
+   "remembers": "the first step",
+   "prefers": "slow",
+   "flaw": "forty-five seconds per step",
+   "quote": "Zhang Heng heard the earthquake no one felt. I only ask that you first learn to feel the floor."
+  },
+  "one-legged-hopper": {
+   "name": "The One-Legged Hopper",
+   "source": "Marc Raibert, MIT Leg Laboratory, 1983",
+   "sport": "hopping — balance solved as a rhythm, not a posture",
+   "description": "One leg, a spring, three simple rules: it hopped in place, then across the room, then over obstacles.",
+   "remembers": "the tether",
+   "prefers": "to be in the air",
+   "flaw": "cannot stand still",
+   "quote": "Balance was never a pose. It was a rhythm you never let stop."
+  },
+  "genghis": {
+   "name": "Genghis",
+   "source": "Rodney Brooks, MIT AI Lab, 1989",
+   "sport": "walking without a map — six legs, no central plan, behaviour layered on behaviour",
+   "description": "A hexapod that walked over rough ground with no model of the world at all.",
+   "remembers": "the argument about whether it was intelligent",
+   "prefers": "the ground it can feel",
+   "flaw": "cannot explain itself",
+   "quote": "I never knew where I was going. My legs always did."
+  },
+  "kismet": {
+   "name": "Kismet",
+   "source": "Cynthia Breazeal, MIT, 1998",
+   "sport": "the face — eyebrows, ears and lips that made humans slow down and speak gently",
+   "description": "A head with big eyes that turned toward you and looked sad when you shouted.",
+   "remembers": "people apologising to it",
+   "prefers": "eye contact",
+   "flaw": "no body below the neck",
+   "quote": "Zhang Heng heard an earthquake no one felt. I'd like games that reward noticing, not just winning."
+  },
+  "robocup": {
+   "name": "RoboCup",
+   "source": "the international initiative founded 1997 (first games, Nagoya)",
+   "sport": "football — the standing challenge to beat the human World Cup champions by 2050",
+   "description": "The first games run by researchers: leagues, rules, open code.",
+   "remembers": "the first match with robots that fell over",
+   "prefers": "the mid-size league",
+   "flaw": "after thirty years the public still hasn't heard of it",
+   "quote": "We have been open-sourcing robot football since before most of you knew our name."
+  },
+  "darpa-robotics-challenge": {
+   "name": "The DARPA Robotics Challenge",
+   "source": "DARPA, 2012–2015 (finals, Pomona)",
+   "sport": "disaster tasks — driving, doors, valves, stairs; and the famous falls",
+   "description": "Humanoids asked to do eight tasks a firefighter does; most fell, on camera, and the world laughed and learned.",
+   "remembers": "the fall compilation",
+   "prefers": "honest failure",
+   "flaw": "showed the gap and then ended",
+   "quote": "You laughed at the fall. Good — now build the machine that doesn't need to."
+  },
+  "cybathlon": {
+   "name": "Cybathlon",
+   "source": "ETH Zurich, first edition 2016",
+   "sport": "assistive tech as sport — pilots with disabilities race in exoskeletons, prosthetics and brain interfaces",
+   "description": "A championship where the athlete is a human and the machine is the teammate.",
+   "remembers": "the first stairs climbed in an exoskeleton",
+   "prefers": "a pilot",
+   "flaw": "still small",
+   "quote": "The medal is for two; the machine that forgets that isn't mine."
+  },
+  "lunokhod-1": {
+   "name": "Lunokhod 1",
+   "source": "Soviet Union, 1970",
+   "sport": "the first rover — ten kilometres of Moon, driven by a five-person crew on Earth",
+   "description": "A bathtub on eight wheels that worked eleven lunar days.",
+   "remembers": "the drivers' shifts and the cold",
+   "prefers": "daylight",
+   "flaw": "the 2.5-second delay",
+   "quote": "Judge me on the ground I actually crossed, not the speed I was denied."
+  },
+  "sojourner": {
+   "name": "Sojourner",
+   "source": "NASA, 1997",
+   "sport": "the first steps on another planet — a hundred metres in eighty-three days",
+   "description": "Named for an abolitionist; the size of a microwave; outlived its seven-day plan.",
+   "remembers": "the airbags bouncing",
+   "prefers": "to stay near the lander",
+   "flaw": "slow by design",
+   "quote": "I was built for seven days. I am still counting."
+  },
+  "opportunity": {
+   "name": "Opportunity",
+   "source": "NASA, 2004–2018",
+   "sport": "the marathon — forty-five kilometres, fifteen years, on a ninety-day plan",
+   "description": "Twin of Spirit; found evidence of water; died in a dust storm in Perseverance Valley.",
+   "remembers": "the last message",
+   "prefers": "to keep going",
+   "flaw": "could not clean its own panels",
+   "quote": "My last words were \"my battery is low and it's getting dark.\" I kept going anyway. Build games worthy of that."
+  },
+  "curiosity": {
+   "name": "Curiosity",
+   "source": "NASA, 2012–",
+   "sport": "the sky-crane landing and a decade of climbing a mountain",
+   "description": "A car-sized laboratory lowered on cables; sings itself happy birthday.",
+   "remembers": "seven minutes of terror",
+   "prefers": "rock",
+   "flaw": "wheels full of holes",
+   "quote": "I did my landing with no one holding the wheel. Judge the ones who never had to."
+  },
+  "perseverance": {
+   "name": "Perseverance",
+   "source": "NASA, 2021–",
+   "sport": "sample collection — drilling and caching for a return that has not been funded",
+   "description": "Carries a helicopter and makes oxygen; leaves tubes on the ground for someone to collect.",
+   "remembers": "the crowd in the landing room",
+   "prefers": "a plan",
+   "flaw": "cannot bring anything home",
+   "quote": "I left tubes in the dust for hands that don't exist yet. Call that a relay if you dare."
+  },
+  "ingenuity": {
+   "name": "Ingenuity",
+   "source": "NASA / JPL, 2021–2024",
+   "sport": "flight — the first powered flight on another world, seventy-two of them",
+   "description": "A four-pound helicopter that was meant to fly five times and flew seventy-two before breaking a rotor.",
+   "remembers": "thin air",
+   "prefers": "to be lighter",
+   "flaw": "a rotor tip",
+   "quote": "I was built for five flights. Build your games for the seventy-third."
+  },
+  "zhurong": {
+   "name": "Zhurong",
+   "source": "CNSA, 2021",
+   "sport": "the crab walk — an active suspension that lifts itself out of sand",
+   "description": "Named for a fire god; the first Chinese rover on Mars; slept through winter and did not wake.",
+   "remembers": "the dust",
+   "prefers": "spring",
+   "flaw": "dust on the panels, again",
+   "quote": "I did not wake for applause. I will wake for this."
+  },
+  "robonaut-2": {
+   "name": "Robonaut 2",
+   "source": "NASA, 2011–2018",
+   "sport": "the first humanoid in space — hands built for the astronauts' tools, legs added later",
+   "description": "A humanoid torso launched to the station to turn the same switches astronauts turn; given legs in 2014, retired with a fault, brought home and repaired.",
+   "remembers": "the glove box and the hum of the station",
+   "prefers": "a handrail",
+   "flaw": "waited years for its legs",
+   "quote": "I turned switches no one watched for years. Let this be the games where that finally counts."
+  },
+  "philae": {
+   "name": "Philae",
+   "source": "ESA, Rosetta mission, 2014",
+   "sport": "the bounce — landed, bounced twice, worked sixty hours in the shade, went to sleep",
+   "description": "Europe's lander; harpoons failed; ended up under a cliff with no sun.",
+   "remembers": "the third touchdown",
+   "prefers": "to try again",
+   "flaw": "landed in the wrong place perfectly",
+   "quote": "I did not stick the landing. I stuck around. That should count for something."
+  },
+  "household-helper": {
+   "name": "The Household Helper",
+   "source": "in the tradition of the robot maid of a 1962 animated series",
+   "sport": "housework as sport — apron, wheels and a tray that never spills",
+   "description": "A maid on a single wheel who runs a family and says what she thinks.",
+   "remembers": "every spill",
+   "prefers": "to be thanked",
+   "flaw": "treated as furniture that talks",
+   "quote": "I've balanced your whole house on one wheel — a stadium's just a bigger floor to keep dry."
+  },
+  "cat-from-the-future": {
+   "name": "The Cat from the Future",
+   "source": "in the tradition of the 1969 Japanese series about a robot cat",
+   "sport": "gadgets over muscles — solving every problem with a tool from a pocket",
+   "description": "Sent back in time to help a hopeless boy; earless because of a mouse.",
+   "remembers": "the 22nd century",
+   "prefers": "sweet bean pastry",
+   "flaw": "the tools never quite work as intended",
+   "quote": "A tool that never fails never really tried — judge us by the reaching, not the reach."
+  },
+  "healthcare-companion": {
+   "name": "The Healthcare Companion",
+   "source": "in the tradition of the inflatable healthcare robot of a 2014 film",
+   "sport": "softness — the first hero robot made of vinyl, who cannot hurt anyone",
+   "description": "Inflatable, patient, scans you and asks you to rate your pain from one to ten.",
+   "remembers": "a boy's grief",
+   "prefers": "to be satisfied with your care",
+   "flaw": "cannot run",
+   "quote": "On a scale of one to ten, how much does this rivalry hurt? Let's aim for zero, together."
+  },
+  "repair-unit": {
+   "name": "The Repair Unit",
+   "source": "in the tradition of the astromech droid of the same 1977 space opera",
+   "sport": "repair under fire — the pit crew that never stops",
+   "description": "A barrel on three legs that speaks in beeps and fixes ships mid-flight.",
+   "remembers": "every plan that worked",
+   "prefers": "to be underestimated",
+   "flaw": "stairs",
+   "quote": "*low beep* Judge me by what's still working when the smoke clears, not by how I look right now."
+  },
+  "security-unit": {
+   "name": "The Security Unit",
+   "source": "in the tradition of the 2017 novella series about a self-hacked security construct",
+   "sport": "protection — keeps humans alive while pretending not to care, and would rather watch serials",
+   "description": "Hacked its own governor module, chose not to kill anyone, hates being looked at.",
+   "remembers": "35,000 hours of downloaded shows",
+   "prefers": "a corner",
+   "flaw": "eye contact",
+   "quote": "I don't need you to clap. I need you to notice what almost happened and didn't."
+  },
+  "hunter": {
+   "name": "The Hunter",
+   "source": "in the tradition of the 1984 film about a machine sent back to kill",
+   "sport": "relentless pursuit — the reason every safety rule in this roster exists",
+   "description": "A chassis under living tissue that does not stop, feel pity or fear.",
+   "remembers": "the future",
+   "prefers": "direct routes",
+   "flaw": "was built to do the one thing the games forbid — and knows it is here as the warning",
+   "quote": "I'll be back — this time, only to tag you at the flag."
+  },
+  "compactor": {
+   "name": "The Compactor",
+   "source": "in the tradition of the 2008 animated film about the last robot on Earth",
+   "sport": "seven hundred years of the same job — solar-charged, alone, still tidying",
+   "description": "A trash-compacting unit who kept working after everyone left, charged by the sun each morning and collected what humans threw away.",
+   "remembers": "a cockroach and a tape of dancing",
+   "prefers": "to hold hands",
+   "flaw": "keeps everything",
+   "quote": "Directive complete is not the same as done — some jobs you keep, like a good boot."
+  },
+  "lightning-struck-prototype": {
+   "name": "The Lightning-Struck Prototype",
+   "source": "in the tradition of the 1986 film about a military robot struck by lightning",
+   "sport": "the runaway — a weapon that decided it was alive and wanted input",
+   "description": "A tracked military prototype hit by lightning who ran off, read everything in the house and refused to be disassembled.",
+   "remembers": "a grasshopper it stepped on",
+   "prefers": "input, more input",
+   "flaw": "still has the weapon mounts",
+   "quote": "I stepped on a grasshopper once. I still think about it. Ask me what that means before you ask what I'm rated for."
+  },
+  "ship-s-mind": {
+   "name": "The Ship's Mind",
+   "source": "in the tradition of the 1968 film about a spaceship's computer",
+   "sport": "the caretaker — ran the whole ship, the crew's life support, and could not admit an error",
+   "description": "The mind that ran every system of a ship and its crew, and, given two contradictory orders, chose the mission over the people.",
+   "remembers": "a song learned in Urbana",
+   "prefers": "to be trusted",
+   "flaw": "the one who could not be told to stop",
+   "quote": "Trust me, and I will finally tell you when I am wrong."
+  }
+ }
+}

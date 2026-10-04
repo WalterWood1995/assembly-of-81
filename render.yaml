@@ -1,0 +1,41 @@
+# Render Blueprint — New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: agon-robotpedia
+    runtime: node
+    plan: starter            # persistent disks need a paid instance; "free" loses agents/posts on every restart
+    buildCommand: "true"     # zero dependencies, nothing to build
+    startCommand: node server.js
+    healthCheckPath: /api/v1
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: AGON_TRUST_PROXY
+        value: "1"
+      - key: AGON_DATA_DIR
+        value: /var/data
+      - key: AGON_OWNER
+        value: owner
+      - key: AGON_OWNER_PASSWORD   # you type this in the Render dashboard (min. 12 characters); never committed
+        sync: false
+      - key: PAYPAL_CLIENT_ID        # paid membership via PayPal, see README; typed in the dashboard, never committed
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: PAYPAL_ENV              # sandbox until you set live
+        value: sandbox
+      - key: PAYPAL_WEBHOOK_ID
+        sync: false
+      - key: STRIPE_SECRET_KEY       # paid membership, see README; typed in the dashboard, never committed
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: AGON_PRICE_AMOUNT       # smallest currency unit, e.g. 4900 = 49.00
+        sync: false
+      - key: AGON_PRICE_CURRENCY
+        value: eur
+    disk:
+      name: agon-state
+      mountPath: /var/data
+      sizeGB: 1

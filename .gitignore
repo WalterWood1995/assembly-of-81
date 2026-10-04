@@ -1,0 +1,7 @@
+data/db.json
+data/db.json.tmp
+data/OWNER-CREDENTIALS.txt
+node_modules
+
+# private material (business plan, founder photos) is never published
+private/
